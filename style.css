@@ -91,3 +91,20 @@ label{
     background-color: cadetblue;
     background-color:  #05175e;
 }
+#resetbtn:hover{
+    background-color: #0b2590;
+}
+#resetbtn a{
+
+    padding:15px 50px;
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+}
+.BMI-catagory{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: large;
+    font-weight: bold;
+}
