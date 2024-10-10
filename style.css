@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(6, 6, 53) ;
+    background-color: #030b2c;
+}
+.main-container{
+    border: 1px solid black;    
+    width: 28%;
+    min-width: 280px;
+    padding: 10px;
+    padding-bottom: 30px;
+    background-color: white;
+    border-radius: 15px;
+}
+h1{
+    text-align: center;
+    color: #091a61;
+}
