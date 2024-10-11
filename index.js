@@ -38,4 +38,18 @@ if((!weightInput.value.trim() || !heightInput.value.trim()) || (height <= 0 || w
         weightError.textContent = "";
         });
 }
+else{
+    var BMI = (weight / (height ** 2)).toFixed(2)
+    if(BMI > 0 && BMI < 18.5){
+        catagory.textContent = `UnderWeight: BMI ${BMI}`
+    }
+    else if(BMI >= 18.5 && BMI < 24.9){
+        catagory.textContent = `Normal Weight: BMI ${BMI}`
+    }
+    else if(BMI >= 25 && BMI < 29.9){
+        catagory.textContent = `OverWeight: BMI ${BMI}`
+    }else{
+        catagory.textContent = `Obesity: BMI ${BMI}`
+    }
+}
 })
